@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-android33.0</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <RootNamespace>_607A2</RootNamespace>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationId>com.companyname._607A2</ApplicationId>
+    <ApplicationVersion>1</ApplicationVersion>
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Resources\layout\activity_2Signup.xml" />
+    <None Remove="Resources\layout\activity_3Signin.xml" />
+    <None Remove="Resources\layout\activity_4Profile.xml" />
+    <None Remove="Resources\layout\activity_5OrderRe.xml" />
+    <None Remove="Resources\layout\activity_6RecDetail.xml" />
+    <None Remove="Resources\layout\activity_7HistroyTrans.xml" />
+    <None Remove="Resources\layout\activity_8Contact.xml" />
+    <None Remove="Resources\layout\activity_9OrderSum.xml" />
+    <None Remove="Resources\layout\Add_EditRece10.xml" />
+    <None Remove="Resources\layout\Menu.xml" />
+    <None Remove="Resources\values\style.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\drawable\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+    <PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="2.1.8" />
+  </ItemGroup>
+</Project>

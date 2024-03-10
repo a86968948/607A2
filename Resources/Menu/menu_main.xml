@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/action_profile"
+        android:title="Profile" />
+    <item
+        android:id="@+id/action_order_summary"
+        android:title="Order Summary" />
+    <item
+        android:id="@+id/action_receiver_list"
+        android:title="Receiver List" />
+    <item
+        android:id="@+id/action_contact_us"
+        android:title="Contact us" />
+    <item
+        android:id="@+id/action_history"
+        android:title="History" />
+    <item
+        android:id="@+id/action_sign_out"
+        android:title="Sign out" />
+</menu>
